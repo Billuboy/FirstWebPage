@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#42c5fa;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    border: 1px #677da1 solid;
+    border-radius: 5px;
+    text-align: left;
+    background:#fff;
+    max-width: 300px;
+    max-height: 600px;
+    margin: 50px auto;
+
+}
+.daughter label{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.daughter input{
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: 1px #696969 solid;
+    border-radius: 5px;
+    padding: 6px;
+    
+}
+.daughter select{
+    width: 50%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: 1px #696969 solid;
+    border-radius: 5px;
+    height: 30px;
+}
+.container h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.container button{
+    width: 90%;
+    display: block;
+    margin:auto;
+    text-align: center;
+    text-decoration: none;
+    color: #0d57be;
+    background:#17ce36;
+    border: 2px #696969 solid;
+    line-height: 2rem;
+    padding: 10px, 20px, 10px, 20px;
+    margin-bottom: 10px;
+
+}
+.container button:hover{
+    background-color:#17bb36;
+    cursor: pointer;
+}
+.terms{
+    text-align: center;
+    color: rgba(22, 63, 80, 0.5);
+}
+.terms a{
+    color: #0d57be;
+    text-decoration: none;
+    
+}
+footer{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#foot{
+    text-align: center; 
+    font-size: 18px;
+    color:rgba(22, 63, 80, 0.5);
+}
+#foot a{
+    text-decoration: none;
+    color: #0d57be;
+}
